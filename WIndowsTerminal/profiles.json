@@ -10,7 +10,7 @@
 
   "profiles": {
     "defaults": {
-      "historySize": 65536
+      "historySize": 1048576
     },
     "list": [
       {
@@ -41,8 +41,9 @@
       },
       {
         "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
-        "hidden": false,
         "name": "Ubuntu",
+        "hidden": false,
+        "icon": "ms-appdata:///Local/icon/Ubuntu_flat_circle_512px_1113622_easyicon.net.png",
         "source": "Windows.Terminal.Wsl"
       },
       {
