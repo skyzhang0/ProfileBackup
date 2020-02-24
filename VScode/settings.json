@@ -1,0 +1,59 @@
+{
+  "atomKeymap.promptV3Features": true,
+  "editor.renderWhitespace": "none",
+  "editor.renderControlCharacters": true,
+  "terminal.integrated.shell.windows": "C:\\Program Files\\PowerShell\\7-preview\\pwsh.exe",
+  "terminal.integrated.scrollback": 2000,
+  "window.zoomLevel": 0,
+  "editor.wordWrap": "on",
+  "files.autoSave": "afterDelay",
+  "workbench.iconTheme": "material-icon-theme",
+  "python.dataScience.sendSelectionToInteractiveWindow": true,
+  "files.autoGuessEncoding": true,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "python.jediEnabled": false,
+  "editor.fontSize": 17,
+  "[python]": {},
+  "workbench.colorTheme": "Material Theme High Contrast",
+  "editor.formatOnSave": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "python.pythonPath": "C:\\ProgramData\\Anaconda3\\python.exe",
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "files.associations": {
+    "*.sh": "shellscript"
+  },
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  // shell-format's configuration
+  "shellformat.path": "C:\\bin\\shfmt.exe",
+  "shellformat.effectLanguages": [
+    "shellscript",
+    "dockerfile",
+    "dotenv",
+    "hosts",
+    "jvmoptions",
+    "ignore",
+    "gitignore",
+    "properties",
+    "spring-boot-properties",
+    "azcli"
+  ],
+  "shellformat.flag": null
+}
