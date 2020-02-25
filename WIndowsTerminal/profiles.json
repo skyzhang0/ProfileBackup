@@ -4,7 +4,7 @@
 {
   "$schema": "https://aka.ms/terminal-profiles-schema",
 
-  "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+  "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
 
   "tabWidthMode": "titleLength",
 
@@ -75,6 +75,13 @@
         "icon": "ms-appdata:///Local/icon/msys2.ico",
         "commandline": "cmd /C \"set MSYSTEM=MINGW64 & c:\\msys64\\usr\\bin\\bash --login\"",
         "guid": "{b293b06a-22dd-49c8-b317-af976d23974d}"
+      },
+      {
+        "hidden": false,
+        "name": "Git Bash",
+        "icon": "ms-appdata:///Local/icon/logomark-black@2x.png",
+        "guid": "{bdc0d851-14cc-413d-ab32-79dbf42d4515}",
+        "commandline": "C:\\Program Files\\Git\\bin\\bash.exe"
       }
     ]
   },
